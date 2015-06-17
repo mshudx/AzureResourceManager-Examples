@@ -3,6 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hello world", "Hello world", "{5F659B73-30F6-4FB4-9F3D-EE2EA29B1597}"
+	ProjectSection(SolutionItems) = preProject
+		helloWorld.json = helloWorld.json
+		helloWorld.ps1 = helloWorld.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nested", "Nested", "{38467DE8-4B04-422C-B7DB-ED2964280575}"
+	ProjectSection(SolutionItems) = preProject
+		nestedTemplate.json = nestedTemplate.json
+		newStorageAccount.json = newStorageAccount.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Expressions", "Expressions", "{4F2C2DFF-B632-4F1A-AA27-2E63469546B5}"
+	ProjectSection(SolutionItems) = preProject
+		base64Sample.json = base64Sample.json
+		concatSample.json = concatSample.json
+		deploymentSample.json = deploymentSample.json
+		LICENSE = LICENSE
+		listKeysSample.json = listKeysSample.json
+		padLeftSample.json = padLeftSample.json
+		parametersSample.json = parametersSample.json
+		providersSample.json = providersSample.json
+		replaceSample.json = replaceSample.json
+		resourceGroupSample.json = resourceGroupSample.json
+		resourceIdSample.json = resourceIdSample.json
+		subscriptionSample.json = subscriptionSample.json
+		toLowerSample.json = toLowerSample.json
+		toUpperSample.json = toUpperSample.json
+		variablesSample.json = variablesSample.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Organizing", "Organizing", "{9707D6E4-06EF-4475-A7F1-701674241AB1}"
+	ProjectSection(SolutionItems) = preProject
+		locks.ps1 = locks.ps1
+		logs.ps1 = logs.ps1
+		roles.ps1 = roles.ps1
+		tags.ps1 = tags.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

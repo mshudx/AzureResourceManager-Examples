@@ -22,7 +22,7 @@
                 "North Europe"
             ]
         }
-    },
+    },s
     "resources": [
         {
             "type": "Microsoft.Storage/storageAccounts",
@@ -33,7 +33,7 @@
                 "accountType": "[parameters('storageAccountType')]"
             },
             "tags": {
-                "displayName": "test"
+                "environment": "demo"
             }
         }
     ],
