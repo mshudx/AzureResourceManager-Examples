@@ -42,6 +42,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Organizing", "Organizing", 
 		tags.ps1 = tags.ps1
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Networking", "Networking", "{3FDC558F-86C0-43E3-899B-94E76E03F80B}"
+	ProjectSection(SolutionItems) = preProject
+		securityGroup.json = securityGroup.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

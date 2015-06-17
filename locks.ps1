@@ -7,4 +7,6 @@
 Get-AzureResourceLock
 
 $resourceGroup = Get-AzureResourceGroup -Name "ABK01"
-Remove-AzureResourceLock -ResourceId $resourceGroup.ResourceId
+
+# :(
+Get-AzureResourceLock  -ResourceGroupName "ABK01" -LockName noMoredelete | Remove-AzureResourceLock
